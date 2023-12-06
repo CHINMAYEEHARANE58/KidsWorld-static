@@ -1,0 +1,167 @@
+@import url("https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;600&family=Rubik:wght@400;600&display=swap");
+
+*{
+    margin: 0;
+    padding: 0;
+    font-family: "Rubik", sans-serif;
+}
+
+.top{
+    height:40px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.logo{
+    width: 8rem;
+    height: 1.4rem;
+    margin-left: 50px;
+    margin-top: 10px;
+}
+
+.cart{
+    width: 1.8rem;
+}
+
+.cart-icon{
+    display: flex;
+    align-items: center;
+    margin-right: 4rem;
+}
+
+.cart-icon h3{
+    font-size: 13px;
+}
+
+#bgimg{
+    background-image: url(./assets/kw-background.png);
+    width: 100%;
+    height: 388px;
+    background-size: cover;
+}
+
+#bgtext{
+    color: white;
+    padding-top: 3rem;
+    padding-left: 4rem;
+}
+
+#bgtext h2{
+    font-size: 59px;
+    font-family: 'Bona Nova', serif;
+    font-weight: 25;
+}
+
+#bgtext h4{
+    padding-top: 19px;
+    font-size: 18px;
+}
+
+.section{
+    padding-top: 8rem;
+}
+
+.book{
+    width: 150px;
+}
+
+.book img{
+    width: 150px;
+}
+
+.price{
+    display: flex;
+    justify-content: space-between;
+}
+
+.price h4{
+    padding-top: 2px;
+}
+
+.books{
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.section h3{
+    font-family: 'Bona Nova', serif;
+    padding: 9px;
+    padding-left: 3.3rem;
+    font-size: 20px;
+}
+
+.book h4{
+    font-size: 15px;
+}
+
+p{
+    font-size: 12px;
+    color: grey;
+    padding: 5px 4px 11px 0px;
+}
+
+button{
+    background-color: hsl(219.87deg 100% 69.02%);
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+
+#add{
+    width: 55px;
+    height: 25px;
+    border: 0px;
+    border-radius: 3px;
+    color: aliceblue;
+}
+
+#add img{
+    width: 15px;
+}
+
+/* games */
+.Games{
+    width: 100%;
+    padding-bottom: 8rem;
+}
+
+.Games img{
+    width: 230px;
+}
+
+.Games{
+    display: flex;
+    justify-content: space-around;
+}
+
+/* footer */
+
+.footer{
+    
+    display: flex;
+    background-color: black;
+    border: 1px solid black;
+    width: 100%;
+    justify-content: space-between;
+}
+
+#profile img{
+    width: 120px;
+    height: 120px;
+    border-radius: 50%;
+    margin-left: 3rem;
+}
+
+#profile h3, .footer-text h4, .footer-text p{
+    color: aliceblue;
+}
+
+.footer-text{
+    margin: 3rem 2rem;
+    text-align: right;
+}
+
+.footer-text h4{
+    margin-right: 4px;
+}
